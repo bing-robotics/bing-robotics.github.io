@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #284e46; /* Binghamton University green */
+  color: white;
+  padding: 0rem;
+  text-align: center;
+}
+
+.App-logo {
+  height: 100px; /* Adjust size of the logo */
+  width: 350px;
+  margin-right: 20px;
+}
+
+header h1 {
+  background-color: #9a9898; 
+  padding: 150px;
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: left; 
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 60px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0 15px;
+}
+
+/* .talk p { */
+  /* font-size: 1.1rem; Regular text size */
+  /* margin: 5px 0; Space above and below */
+/* } */
+
+.talk-details {
+  display: flex; /* Use flexbox for layout */
+}
+
+.talk-time {
+  width: 100px; 
+  margin-right: 20px; 
+  display: flex; 
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  text-align: left; 
+}
+
+.talk-abstract {
+  flex: 1; 
+}
+
+.talk p {
+  margin: 0.5rem 0; 
+}
+
+.talk-notes {
+  font-style: italic; 
+  margin-top: 10px;
+}
+
+main {
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #284e46;
+  color: white;
+  text-align: center;
+  padding: 0.02rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
