@@ -66,6 +66,28 @@ function App() {
                         <div className="talk-notes">
                             <p>Prof. Kaiyan Yu will offer a lab tour for all who are interested after the seminar talk.</p>
                         </div>
+                        {/* New Talk Entry for David DeFazio */}
+                        <div className="talk">
+                            <div className="talk-details">
+                                <div className="talk-time">
+                                    <p> Wednesday, October 16, 2024, 11:00 AM, EB P03 |</p>
+                                </div>
+                                <div className="talk-abstract">
+                                    <h3>David DeFazio</h3>
+                                    <p>
+                                        <strong>Title:</strong> 
+                                        <span className="normal-text"> Legged Locomotion and Collaborative Decision Making in Human-Robot Teams</span>
+                                    </p>
+                                    <p><strong>Abstract:</strong> Legged robots are of great interest to the robotics community, due to their capacity for agile movements and robust locomotion in challenging environments. Several methods exist to enable locomotion and navigation capabilities for legged robots, however these methods generally do not leverage human domain knowledge or support direct interactions with people for collaborative decision making. In this talk, I will present a human-in-the-loop approach for both locomotion gait design and guided navigation. Each approach has been deployed on hardware, showcasing diverse locomotion gaits, and guided navigation for the visually impaired.</p>
+                                    <p><strong>Bio:</strong> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="talk-notes">
+                            <p>Prof. Kaiyan Yu will offer a lab tour for all who are interested after the seminar talk.</p>
+                        </div>
+
+
                     </div>
                     <div className="archive" id="archive">
                         <h2>Archive</h2>
