@@ -41,7 +41,7 @@ function App() {
                         <div className="talk">
                             <div className="talk-details">
                                 <div className="talk-time">
-                                    <p> Wednesday, October 23, 2024, 11:00 AM, To be decided |</p>
+                                    <p> Wednesday, October 23, 2024, 11:00 AM, EB P03 |</p>
                                 </div>
                                 <div className="talk-abstract">
                                     <h3>Stephanie Jesso</h3>
