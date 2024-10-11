@@ -13,21 +13,53 @@ header {
 }
 
 .App-logo {
-  height: 100px; /* Adjust size of the logo */
+  height: 100px; 
   width: 350px;
   margin-right: 20px;
 }
 
+.App-navbar {
+  opacity: 90%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.App-navbar a {
+  position: relative; /* Allows positioning of pseudo-elements */
+  text-decoration: none; /* Remove default overline */
+}
+
+.App-navbar a:hover {
+  transform: translateY(-5px); /* Slightly lift the text on hover */
+  transition: transform 0.2s; /* Smooth transition */
+}
+
+.App-navbar a:hover::before {
+  content: ""; /* Creates an empty element for the overline */
+  position: absolute;
+  top: -8px; /* Adjust this value to set distance above the text */
+  left: 0;
+  right: 0;
+  height: 2px; /* Thickness of the overline */
+  background-color: rgb(251, 148, 110); /* Overline color */
+}
+
 header h1 {
-  background-color: #9a9898; 
   padding: 150px;
-  text-align: left;
-  color: white;
+  text-align: center;
+  color:#000000;
   display: flex;
-  align-items: left; 
+  justify-content: center;
+  align-items: center; 
   font-family: 'Merriweather', serif;
   font-size: 3rem;
   margin: 0;
+  position: relative;
+  background-image: url('../src/assets/background.jpg');
+  background-size: cover;               /* Cover the entire header */
+  background-position: center;          /* Center the image */
+  background-size: 100% 100%;
 }
 
 header nav {
@@ -55,11 +87,6 @@ header nav ul li a {
   padding: 0 15px;
 }
 
-/* .talk p { */
-  /* font-size: 1.1rem; Regular text size */
-  /* margin: 5px 0; Space above and below */
-/* } */
-
 .talk-details {
   display: flex; /* Use flexbox for layout */
 }
@@ -68,9 +95,12 @@ header nav ul li a {
   width: 100px; 
   margin-right: 20px; 
   display: flex; 
+  flex-direction: column;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
   text-align: left; 
+  color: #5e5b5b; /* Gray color for time text */
+  margin-bottom: 10px;
 }
 
 .talk-abstract {
@@ -84,6 +114,42 @@ header nav ul li a {
 .talk-notes {
   font-style: italic; 
   margin-top: 10px;
+}
+
+.talk-container {
+  border-bottom: 1px solid #ccc; /* Adds a light grey border separator */
+  padding: 20px 0;  /* Adds space between the content and the border */
+  background-color: #fff; /* White background for each talk */
+  border: 1px solid #ddd; /* Light border */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease-in-out; /* Animation for hover */
+}
+
+.talk-details h3 {
+  color: #284e46; /* Binghamton University green for speaker names */
+  margin-bottom: 10px;
+}
+
+.talk-details p {
+  margin: 0.5rem 0; /* Standard margin for paragraphs */
+}
+
+.talk-details .normal-text {
+  font-weight: normal;
+}
+
+.talk-abstract {
+  color: #404040;
+}
+
+.talks-section h2 {
+  font-family: 'Merriweather', sans-serif; /* Set the desired font family */
+  font-size: 45px; /* Set the font size */
+  text-align: center; /* Center-align the text */
+  margin-bottom: 5px; /* Add space below the heading */
+  margin-top: 85px;
+  color: #284e46;
 }
 
 main {
