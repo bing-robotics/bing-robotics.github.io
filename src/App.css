@@ -13,22 +13,26 @@ header {
 }
 
 .App-logo {
-  height: 100px; 
-  width: 350px;
+  height: 100px;
+  width: auto; /* Let the width adjust automatically based on height */
+  /* height: 100px;
+  width: 350px; */
   margin-right: 20px;
 }
 
 @media (max-width: 768px) {
   .App-logo {
     height: 80px; /* Slightly smaller height */
-    width: 250px; /* Adjusted width */
+    width: auto;
+    /* width: 250px;  Adjusted width */
   }
 }
 
 @media (max-width: 480px) {
   .App-logo {
     height: 60px; /* Even smaller height */
-    width: 200px; /* Smaller width */
+    width: auto;
+    /* width: 200px;  Smaller width */
   }
 }
 
@@ -70,7 +74,7 @@ header h1 {
   font-size: 3rem;
   margin: 0;
   position: relative;
-  background-image: url('../src/assets/background.jpg');
+  background-image: url('../src/assets/background1.jpg');
   background-size: cover;               /* Cover the entire header */
   background-position: center;          /* Center the image */
   background-size: 100% 100%;
@@ -156,13 +160,6 @@ header nav ul li a {
   transition: transform 0.3s ease-in-out; /* Animation for hover */
 }
 
-.talk-container:nth-child(odd) {
-  background-color: #ffffff; /* White background for odd-numbered talks */
-}
-
-.talk-container:nth-child(even) {
-  background-color: #f4f4f4; /* Light grey background for even-numbered talks */
-}
 
 .talk-details h3 {
   color: #284e46; /* Binghamton University green for speaker names */
@@ -185,8 +182,8 @@ header nav ul li a {
   font-family: 'Merriweather', sans-serif; /* Set the desired font family */
   font-size: 45px; /* Set the font size */
   text-align: center; /* Center-align the text */
-  margin-bottom: 5px; /* Add space below the heading */
-  margin-top: 85px;
+  margin-bottom: 15px; /* Add space below the heading */
+  margin-top: 5px;
   color: #284e46;
 }
 
@@ -194,6 +191,12 @@ header nav ul li a {
   max-width: 1100px; /* Adjust this width as needed */
   margin: 0 auto; /* Center the div */
   padding: 20px; /* Add some padding to avoid content touching the edges */
+}
+
+#talks-schedule a {
+  color: #284e46; /* Change this color as needed */
+  text-decoration: none; /* Removes the underline */
+  transition: color 0.3s ease; /* Adds a smooth transition when hovering */
 }
 
 main {

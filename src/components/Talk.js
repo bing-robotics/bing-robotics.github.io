@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Talk({ time, cohost, speaker, title, abstract, abstract1, papers, bio, notes }) {
+function Talk({ id, time, cohost, speaker, title, abstract, abstract1, papers, bio, notes }) {
   return (
-    <div className="talk-container"> {/* Adds the container for layout and separation */}
+    <div className="talk-container" id={id}> {/* Adds the container for layout and separation */}
       <div className="talk-details">
         <div className="talk-time">
           <p>{time} | </p> {/* Keeps the time next to the divider as per the original */}

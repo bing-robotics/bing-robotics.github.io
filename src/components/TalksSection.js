@@ -4,9 +4,18 @@ import Talk from './Talk';
 function TalksSection() {
   return (
     <section className="talks-section">
+        <div id="talks-schedule" className="talks-wrapper">
+            <h2>Robotics Talk Schedule 2024-2025</h2>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#Legged Locomotion and Collaborative Decision Making in Human-Robot Teams'>August 30,2024: David DeFazio</a></li></ul></p>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#NetSLAM: Network-Aware Path Planning for Edge-Assisted UAV Swarms'>September 13, 2024: Zain Nasir</a></li></ul></p>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#Fine-Tuning Hybrid Physics-Informed Neural Networks for Vehicle Dynamics Model Estimation'>October 16, 2024: Shiming Fang</a></li></ul></p>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique'>October 23,2024: Stephanie Jesso</a></li></ul></p>
+            <p style={{ marginTop: '30px', fontSize: '18px' }}>More to be announced!</p>
+        </div>
         <div id="upcoming-talks" className="talks-wrapper">
             <h2>Upcoming Talks 2024-2025</h2>
-            <Talk
+            <Talk 
+                id="Fine-Tuning Hybrid Physics-Informed Neural Networks for Vehicle Dynamics Model Estimation"
                 time="Wednesday, October 16, 2024, 11:00 AM, EB R15"
                 speaker="Shiming Fang"
                 title="Fine-Tuning Hybrid Physics-Informed Neural Networks for Vehicle Dynamics Model Estimation"
@@ -14,6 +23,7 @@ function TalksSection() {
                 bio="Shiming Fang received the B.S. degree in Mechanical Engineering from Wuhan University of Technology, Wuhan, China in 2016, and the M.S. degree in Mechanical Engineering from University of Birmingham, Birmingham, UK in 2017. He is currently working towards a Ph.D. degree in Mechanical Engineering at Binghamton University. His current research focuses on autonomous vehicle modeling, robust control, and artificial intelligence in autonomous driving."
             />
             <Talk
+                id="On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique"
                 time="Wednesday, October 23, 2024, 11:00 AM, EB P03"
                 speaker="Stephanie Jesso"
                 title="On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique"
@@ -26,6 +36,7 @@ function TalksSection() {
         <div id="past-talks" className="talks-wrapper">
             <h2>Past Talks 2024</h2>
             <Talk
+                id="NetSLAM: Network-Aware Path Planning for Edge-Assisted UAV Swarms"
                 time="Friday, September 13, 2024, 12:00 PM, Engineering Building, T1 "
                 speaker="Zain Nasir"
                 title="NetSLAM: Network-Aware Path Planning for Edge-Assisted UAV Swarms"
@@ -34,6 +45,7 @@ function TalksSection() {
                 cohost="Prof.K D Kang & Prof.William Hallahan"
             />
             <Talk
+                id="Legged Locomotion and Collaborative Decision Making in Human-Robot Teams"
                 time="Friday, August 30, 2024, 12:00 PM, Fountain Room (Smart Energy Building, ITC), Side A"
                 speaker="David DeFazio"
                 title="Legged Locomotion and Collaborative Decision Making in Human-Robot Teams"
