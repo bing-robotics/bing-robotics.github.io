@@ -18,6 +18,20 @@ header {
   margin-right: 20px;
 }
 
+@media (max-width: 768px) {
+  .App-logo {
+    height: 80px; /* Slightly smaller height */
+    width: 250px; /* Adjusted width */
+  }
+}
+
+@media (max-width: 480px) {
+  .App-logo {
+    height: 60px; /* Even smaller height */
+    width: 200px; /* Smaller width */
+  }
+}
+
 .App-navbar {
   opacity: 90%;
   position: sticky;
@@ -60,6 +74,22 @@ header h1 {
   background-size: cover;               /* Cover the entire header */
   background-position: center;          /* Center the image */
   background-size: 100% 100%;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    padding: 100px; /* Less padding for medium screens */
+    font-size: 2.5rem; /* Smaller font size */
+    background-size: cover; /* Adjust the background size */
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    padding: 60px; /* Even less padding for small screens */
+    font-size: 2rem; /* Even smaller font size */
+    background-size: contain; /* Change background size strategy */
+  }
 }
 
 header nav {
@@ -119,11 +149,19 @@ header nav ul li a {
 .talk-container {
   border-bottom: 1px solid #ccc; /* Adds a light grey border separator */
   padding: 20px 0;  /* Adds space between the content and the border */
-  background-color: #fff; /* White background for each talk */
-  border: 1px solid #ddd; /* Light border */
+  background-color: #ffffff; /* White background for each talk */
+  border-bottom: 1px solid #ddd; /* Light border */
   padding: 20px; /* Padding inside the container */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   transition: transform 0.3s ease-in-out; /* Animation for hover */
+}
+
+.talk-container:nth-child(odd) {
+  background-color: #ffffff; /* White background for odd-numbered talks */
+}
+
+.talk-container:nth-child(even) {
+  background-color: #f4f4f4; /* Light grey background for even-numbered talks */
 }
 
 .talk-details h3 {
@@ -150,6 +188,12 @@ header nav ul li a {
   margin-bottom: 5px; /* Add space below the heading */
   margin-top: 85px;
   color: #284e46;
+}
+
+.talks-wrapper {
+  max-width: 1100px; /* Adjust this width as needed */
+  margin: 0 auto; /* Center the div */
+  padding: 20px; /* Add some padding to avoid content touching the edges */
 }
 
 main {

@@ -4,7 +4,7 @@ import Talk from './Talk';
 function TalksSection() {
   return (
     <section className="talks-section">
-        <div id="upcoming-talks">
+        <div id="upcoming-talks" className="talks-wrapper">
             <h2>Upcoming Talks 2024-2025</h2>
             <Talk
                 time="Wednesday, October 16, 2024, 11:00 AM, EB R15"
@@ -23,7 +23,7 @@ function TalksSection() {
                 bio="Dr. Stephanie Tulk Jesso is an assistant professor in the School of Systems Science and Industrial Engineering. She is the PI of the Human-Centered Mindful Technologies Lab at Binghamton, a co-founder of the SUNY Nursing, Engineering and Applied Research Collaborative, and focuses on research related to design, implementation, and impacts of emerging technologies in the real world."
             />
         </div>
-        <div id="past-talks">
+        <div id="past-talks" className="talks-wrapper">
             <h2>Past Talks 2024</h2>
             <Talk
                 time="Friday, September 13, 2024, 12:00 PM, Engineering Building, T1 "
@@ -42,7 +42,7 @@ function TalksSection() {
                 notes="Prof. Kaiyan Yu will offer a lab tour for all who are interested after the seminar talk."
             />
         </div>
-        <div id="archive">
+        <div id="archive" className="talks-wrapper">
             <h2>Archive</h2>
         </div>
     </section>
