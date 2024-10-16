@@ -5,13 +5,13 @@ function Talk({ id, time, cohost, speaker, title, abstract, abstract1, papers, b
     <div className="talk-container" id={id}> {/* Adds the container for layout and separation */}
       <div className="talk-details">
         <div className="talk-time">
-          <p>{time} | </p> {/* Keeps the time next to the divider as per the original */}
+          <p>{time} | </p> {/* Keeps the time next to the divider */}
           {cohost && (
             <p><strong> Co-Hosted with </strong>{cohost}</p>
           )}
         </div>
         <div className="talk-abstract">
-          <h3>{speaker}</h3> {/* Speaker name at the top as in the original */}
+          <h3>{speaker}</h3> {/* Speaker name at the top */}
           <p><strong>Title:</strong> <span className="normal-text">{title}</span></p>
           <p><strong>Abstract:</strong> {abstract}</p>
           <p>{abstract1}</p>

@@ -6,10 +6,11 @@ function TalksSection() {
     <section className="talks-section">
         <div id="talks-schedule" className="talks-wrapper">
             <h2>Robotics Talk Schedule 2024-2025</h2>
-            <p style={{fontSize: '18px'}}><ul><li><a href='#Legged Locomotion and Collaborative Decision Making in Human-Robot Teams'>August 30,2024: David DeFazio</a></li></ul></p>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#Legged Locomotion and Collaborative Decision Making in Human-Robot Teams'>August 30, 2024: David DeFazio</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#NetSLAM: Network-Aware Path Planning for Edge-Assisted UAV Swarms'>September 13, 2024: Zain Nasir</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#Fine-Tuning Hybrid Physics-Informed Neural Networks for Vehicle Dynamics Model Estimation'>October 16, 2024: Shiming Fang</a></li></ul></p>
-            <p style={{fontSize: '18px'}}><ul><li><a href='#On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique'>October 23,2024: Stephanie Jesso</a></li></ul></p>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique'>October 23, 2024: Stephanie Jesso</a></li></ul></p>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#Autonomously Learning World-Model Representations For Efficient Robot Planning'>November 13, 2024: Naman</a></li></ul></p>
             <p style={{ marginTop: '30px', fontSize: '18px' }}>More to be announced!</p>
         </div>
         <div id="upcoming-talks" className="talks-wrapper">
@@ -31,6 +32,14 @@ function TalksSection() {
                 abstract1 ="In this talk, I will discuss how human minds compare to current-state AI systems, and how insights from human cognition can be used to create more efficient and capable autonomous robots. I will also present a case study of an evaluation conducted on two autonomous robots intended to aid nurses within hospital settings: Moxi and TUG. Both cobots were originally considered for procurement by our collaborating healthcare system, UHS, at which time our team discovered a lack of evidence on either platform in academic literature. This led us to analyze user comments on social media, which elucidated common struggles within real-world environments. In order to improve the fit of autonomous robots into human environments, collaborative research must be conducted and evidence must be shared. Hope to see you there!"
                 papers={<a href="https://www.researchgate.net/publication/380014080_On_the_potential_for_human-centered_cognitively_inspired_AI_to_bridge_the_gap_between_optimism_and_reality_for_autonomous_robotics_in_healthcare_a_respectful_critique" target="_blank" rel="noopener noreferrer"> Feel free to check out our conference proceedings paper here!</a>}
                 bio="Dr. Stephanie Tulk Jesso is an assistant professor in the School of Systems Science and Industrial Engineering. She is the PI of the Human-Centered Mindful Technologies Lab at Binghamton, a co-founder of the SUNY Nursing, Engineering and Applied Research Collaborative, and focuses on research related to design, implementation, and impacts of emerging technologies in the real world."
+            />
+            <Talk
+                id="Autonomously Learning World-Model Representations For Efficient Robot Planning"
+                time="Wednesday, November 13, 2024, 11:00 AM, "
+                speaker="Naman"
+                title="Autonomously Learning World-Model Representations For Efficient Robot Planning"
+                abstract="In recent years, it has been clear that planning is an essential tool for robots to achieve complex goals. However, robots often heavily rely on humans to provide 'world models' that enable long-horizon planning. It is not only expensive to create such world models as it requires human experts who understand the domains as well as limitations of the robot, but these human-generated world models are often biased by human intuition and kinematic constraints. In this talk, I will present my research focusing on autonomously learning plannable world models. The talk would involve discussing approaches on task and motion planning, neuro-symbolic abstractions for motion planning, and how we can learn world models for task and motion planning."
+                bio="Naman is a Postdoctoral researcher in Intelligent Robots Lab (IRL) with Prof. George Konidaris. He has completed his PhD from Arizona State University supervised by Prof. Siddharth Srivastava. His research interest lies in investigating methods for autonomously inventing generalizable and plannable world models for robotics tasks. He has been an intern with Palo Alto Research Center, Amazon Robotics, and Toyota Research Institute. Naman has also achieved several graduate fellowships at ASU and a Best Demo Paper Award at AAMAS 2022."
             />
         </div>
         <div id="past-talks" className="talks-wrapper">
