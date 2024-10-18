@@ -9,7 +9,7 @@ function TalksSection() {
             <p style={{fontSize: '18px'}}><ul><li><a href='#Legged Locomotion and Collaborative Decision Making in Human-Robot Teams'>August 30, 2024: David DeFazio</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#NetSLAM: Network-Aware Path Planning for Edge-Assisted UAV Swarms'>September 13, 2024: Zain Nasir</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#Fine-Tuning Hybrid Physics-Informed Neural Networks for Vehicle Dynamics Model Estimation'>October 16, 2024: Shiming Fang</a></li></ul></p>
-            <p style={{fontSize: '18px'}}><ul><li><a href='#On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique'>October 23, 2024: Stephanie Jesso</a></li></ul></p>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique'>October 23, 2024: Dr. Stephanie Tulk Jesso</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#Autonomously Learning World-Model Representations For Efficient Robot Planning'>November 13, 2024: Naman</a></li></ul></p>
             <p style={{ marginTop: '30px', fontSize: '18px' }}>More to be announced!</p>
         </div>
@@ -26,7 +26,7 @@ function TalksSection() {
             <Talk
                 id="On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique"
                 time="Wednesday, October 23, 2024, 11:00 AM, EB P03"
-                speaker="Stephanie Jesso"
+                speaker="Dr. Stephanie Tulk Jesso"
                 title="On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique"
                 abstract="Historically, the fields of computer science, cognitive science, and neuroscience have been tightly linked. To date, this collaboration has yielded major advances in how the brain and mind are understood, as well as the ways in which artificial minds can be constructed to serve as new collaborators to humans. Yet there are still significant gaps between the capabilities of state-of-the-art autonomous robots and the expectations developed by real users who are now encountering autonomous robots on the job. Human-centered design and human factors research can help to bridge these gaps to create safe, effective, and desirable human-robot systems."
                 abstract1 ="In this talk, I will discuss how human minds compare to current-state AI systems, and how insights from human cognition can be used to create more efficient and capable autonomous robots. I will also present a case study of an evaluation conducted on two autonomous robots intended to aid nurses within hospital settings: Moxi and TUG. Both cobots were originally considered for procurement by our collaborating healthcare system, UHS, at which time our team discovered a lack of evidence on either platform in academic literature. This led us to analyze user comments on social media, which elucidated common struggles within real-world environments. In order to improve the fit of autonomous robots into human environments, collaborative research must be conducted and evidence must be shared. Hope to see you there!"
