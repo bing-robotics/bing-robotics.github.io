@@ -15,6 +15,9 @@ function TalksSection() {
         </div>
         <div id="upcoming-talks" className="talks-wrapper">
             <h2>Upcoming Talks 2024-2025</h2>
+        </div>
+        <div id="past-talks" className="talks-wrapper">
+            <h2>Past Talks 2024</h2>
             <Talk
                 id="Autonomously Learning World-Model Representations For Efficient Robot Planning"
                 time="Wednesday, November 15, 2024, 12:00 PM, EB T1"
@@ -24,9 +27,6 @@ function TalksSection() {
                 bio="Naman is a Postdoctoral researcher in Intelligent Robots Lab (IRL) with Prof. George Konidaris. He has completed his PhD from Arizona State University supervised by Prof. Siddharth Srivastava. His research interest lies in investigating methods for autonomously inventing generalizable and plannable world models for robotics tasks. He has been an intern with Palo Alto Research Center, Amazon Robotics, and Toyota Research Institute. Naman has also achieved several graduate fellowships at ASU and a Best Demo Paper Award at AAMAS 2022."
                 cohost="SoC Seminar"
             />
-        </div>
-        <div id="past-talks" className="talks-wrapper">
-            <h2>Past Talks 2024</h2>
             <Talk
                 id="On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique"
                 time="Wednesday, October 23, 2024, 11:00 AM, EB P03"
