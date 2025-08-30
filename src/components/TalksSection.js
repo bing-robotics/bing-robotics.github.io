@@ -6,6 +6,7 @@ function TalksSection() {
     <section className="talks-section">
         <div id="talks-schedule" className="talks-wrapper">
             <h2>Robotics Talk Schedule 2024-2025</h2>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#Planning with Foundation Models: From Service to Assistive Robotics'>September 03, 2025: Shiqi Zhang</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#Legged Locomotion and Collaborative Decision Making in Human-Robot Teams'>August 30, 2024: David DeFazio</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#NetSLAM: Network-Aware Path Planning for Edge-Assisted UAV Swarms'>September 13, 2024: Zain Nasir</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#Fine-Tuning Hybrid Physics-Informed Neural Networks for Vehicle Dynamics Model Estimation'>October 16, 2024: Shiming Fang</a></li></ul></p>
@@ -15,6 +16,14 @@ function TalksSection() {
         </div>
         <div id="upcoming-talks" className="talks-wrapper">
             <h2>Upcoming Talks 2024-2025</h2>
+            <Talk
+                id="Planning with Foundation Models: From Service to Assistive Robotics"
+                time="Wednesday, September 03, 2025, 02:00 PM, EB T1"
+                speaker="Shiqi Zhang"
+                title="Planning with Foundation Models: From Service to Assistive Robotics"
+                abstract="Robots need task planning algorithms for sequencing high-level actions, and motion planning algorithms for computing continuous trajectories for realizing those task-level actions. Task and motion planning (TAMP) algorithms are for interleaving those two types of planning paradigms to ensure task completions. The real world is generally “open” with new objects and unforeseen situations. In this talk, I’ll present our recent efforts on applying foundation models and augmented reality to human-robot planning systems. We will discuss application domains from service robots setting up tables and object delivery to robot dogs assisting people with visual impairment in navigation"
+                bio="Dr. Shiqi Zhang is an Associate Professor with the School of Computing, the State University of New York at Binghamton (SUNY Binghamton). His research interests include robot decision making, robot learning and human-robot systems. He was a Postdoc at the University of Texas at Austin and received his Ph.D. in Computer Science from Texas Tech University. His research has been supported by NSF, OPPO (Faculty Research Award), Ford (URP Award), DEEP Robotics and Guiding Eyes. He received the Best Robotics Paper Award from the 2018 AAMAS conference, Outstanding Associate Editor recognition in 2024 from the IEEE RA-L journal."
+            />
         </div>
         <div id="past-talks" className="talks-wrapper">
             <h2>Past Talks 2024</h2>
