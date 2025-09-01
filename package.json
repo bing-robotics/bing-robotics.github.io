@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bing-robotics.github.io/",
   "name": "robotics-seminar",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,6 @@
     "robotics-seminar": "file:",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://bing-robotics.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

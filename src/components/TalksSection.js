@@ -6,12 +6,12 @@ function TalksSection() {
     <section className="talks-section">
         <div id="talks-schedule" className="talks-wrapper">
             <h2>Robotics Talk Schedule 2024-2025</h2>
-            <p style={{fontSize: '18px'}}><ul><li><a href='#Planning with Foundation Models: From Service to Assistive Robotics'>September 03, 2025: Shiqi Zhang</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#Legged Locomotion and Collaborative Decision Making in Human-Robot Teams'>August 30, 2024: David DeFazio</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#NetSLAM: Network-Aware Path Planning for Edge-Assisted UAV Swarms'>September 13, 2024: Zain Nasir</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#Fine-Tuning Hybrid Physics-Informed Neural Networks for Vehicle Dynamics Model Estimation'>October 16, 2024: Shiming Fang</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#On the potential for human-centered, cognitively inspired AI for autonomous robotics in healthcare: a respectful critique'>October 23, 2024: Dr. Stephanie Tulk Jesso</a></li></ul></p>
             <p style={{fontSize: '18px'}}><ul><li><a href='#Autonomously Learning World-Model Representations For Efficient Robot Planning'>November 15, 2024: Naman Shah</a></li></ul></p>
+            <p style={{fontSize: '18px'}}><ul><li><a href='#Planning with Foundation Models: From Service to Assistive Robotics'>September 03, 2025: Shiqi Zhang</a></li></ul></p>
             <p style={{ marginTop: '30px', fontSize: '18px' }}>More to be announced!</p>
         </div>
         <div id="upcoming-talks" className="talks-wrapper">
