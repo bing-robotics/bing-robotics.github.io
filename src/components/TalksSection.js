@@ -69,6 +69,15 @@ function TalksSection() {
             </li>
           </ul>
         </p>
+        <p style={{ fontSize: "18px" }}>
+          <ul>
+            <li>
+              <a href="#Autonomous Culvert Inspection Using Legged Robots">
+                November 12, 2025: Karthik Dantu
+              </a>
+            </li>
+          </ul>
+        </p>
         <p style={{ marginTop: "30px", fontSize: "18px" }}>
           More to be announced!
         </p>
@@ -76,15 +85,24 @@ function TalksSection() {
       <div id="upcoming-talks" className="talks-wrapper">
         <h2>Upcoming Talks 2025-2026</h2>
         <Talk
+          id="Autonomous Culvert Inspection Using Legged Robots"
+          time="Wednesday, November 12, 2025, 02:00 PM, EB T1"
+          speaker="Karthik Dantu"
+          title="Autonomous Culvert Inspection Using Legged Robots"
+          abstract="We are working on culvert inspection in the Erie canal using legged robots. As seen in this video, such inspection presents several challenges including stable navigation of legged robots, inspection in low-light conditions, accurate fault detection and  detailed visual reconstruction for future inspections. In this talk, I’ll describe our approach for each of these problems along with implications for general robot autonomy."
+          abstract1="CaRT is a context-aware adaptation filter that uses temporal sequence sampling to improve stability in legged locomotion. NightHawk jointly optimizes an external light and camera parameters for optimal image capture in low-light conditions. VISION is a system that uses vision-language models (VLMs) with best-view planning to perform fault detection in culverts in a zero shot manner. And EXPLORE is our adaptation of Gaussian Splatting for active 3D reconstruction of the culvert for both visual and structural reasoning.  I’ll also briefly highlight our other project on autonomous excavation."
+          bio="I am an Associate Professor in Computer Science and Engineering at University at Buffalo, State University of New York (UB). I received my Ph.D. in Computer Science from University of Southern California in 2010 and was a Postdoctoral Fellow in the EECS Department at Harvard University from 2010-13. My research spans the areas of mobile systems and robotics. Most recently, my group works on field robotics in the areas of infrastructure inspection and autonomous excavation. My research is supported by several grants from National Science Foundation, DARPA, AFOSR, AFRL, ONR and others including the NSF Faculty Early Career Award which I received in 2019. For my research, I have received the IEEE Region 1 award for technological innovation (academic) in 2022, elevated to IEEE Senior Member in 2023. I am the founding director of the Center for Embodied Autonomy and Robotics, a university-wide Center that brings together research, entrepreneurship, and outreach in robotics. I also co-direct the Master’s program in Robotics."
+        />
+      </div>
+      <div id="past-talks" className="talks-wrapper">
+        <h2>Past Talks 2025-2026</h2>
+        <Talk
           id="Real-time Hyperspectral Image Processing for Small UAVs"
           time="Wednesday, September 24, 2025, 02:00 PM, EB T1"
           speaker="Jayson Boubin"
           title="Real-time Hyperspectral Image Processing for Small UAVs"
           abstract="Unmanned aerial vehicles (UAV) have emerged in recent years as powerful, maneuverable sensors capable of real-time computer vision. Real-time image processing onboard UAV often requires data or model compression, acceleration, or edge offloading and is generally restricted to conventional RGB cameras. In this study, we consider real-time in-situ processing for hyperspectral imaging (HSI). HSI cameras detect many wavelengths of light. Material-specific spectral signatures can be matched to camera outputs to identify materials in a UAV’s environment, but HSI cameras produce large amounts of information that generally require offline processing by heavy-weight software. We present REMIX, a real-time hyperspectral processing payload for small UAV. REMIX uses a custom software library, light-weight hyperspectral camera, and small embedded device to process and visualize HSI data in real-time. REMIX processes HSI lines in under 5ms, allowing HSI perception to be visualized in real-time where conventional methods may take hours. We show that, when properly configured, adding real-time processing via REMIX degrades UAV flight time by only 4% and increases HSI processing speeds by up to 6X compared to naive payloads, and further decreases post-processing time by 20.48X compared to conventional methods, even when using significantly less powerful equipment."
         />
-      </div>
-      <div id="past-talks" className="talks-wrapper">
-        <h2>Past Talks 2025-2026</h2>
         <Talk
           id="Planning with Foundation Models: From Service to Assistive Robotics"
           time="Wednesday, September 03, 2025, 02:00 PM, EB T1"
