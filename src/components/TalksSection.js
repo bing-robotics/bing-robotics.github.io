@@ -72,6 +72,15 @@ function TalksSection() {
         <p style={{ fontSize: "18px" }}>
           <ul>
             <li>
+              <a href="#Metric-Scale Robotic Skin Using E-Textile and MEMS Technologies">
+                November 5, 2025: Seiichi Takamatsu
+              </a>
+            </li>
+          </ul>
+        </p>
+        <p style={{ fontSize: "18px" }}>
+          <ul>
+            <li>
               <a href="#Autonomous Culvert Inspection Using Legged Robots">
                 November 12, 2025: Karthik Dantu
               </a>
@@ -84,6 +93,25 @@ function TalksSection() {
       </div>
       <div id="upcoming-talks" className="talks-wrapper">
         <h2>Upcoming Talks 2025-2026</h2>
+        <Talk
+          id="Metric-Scale Robotic Skin Using E-Textile and MEMS Technologies"
+          time="Wednesday, November 5, 2025, 02:00 PM, EB T1"
+          speaker="Seiichi Takamatsu"
+          title="Metric-Scale Robotic Skin Using E-Textile and MEMS Technologies"
+          abstract="The integration of multi-modal sensors into robotic skin is essential for ensuring safety and
+          enabling collaborative work with humans. One of the main challenges in developing robotic
+          skin is scalability including covering large, metric-scale surfaces, while also reducing sensor
+          costs and automating the assembly process. Advanced semiconductor-based microelectromechanical systems (MEMS) offer a pathway to low-cost, highly sensitive tactile sensors, bending sensors, and other mechanical sensing
+          components."
+          abstract1="Meanwhile, electronic textile (e-textile) technologies enable the integration of large-area
+          sensors and electronic components through automated manufacturing processes.
+          In this talk, I will introduce textile-based capacitive touch sensor technology, large-area
+          MEMS integration, and the incorporation of electronic components on metric-scale textiles.
+          In addition, the development of highly sensitive tactile and bending sensors will be presented
+          for robotic applications."
+          bio="Seiichi Takamatsu is a Professor in the School of Systems Science and Industrial
+          Engineering at Binghamton University. He received his B.E., M.E., and Ph.D. degrees in Mechanical Informatics from the University of Tokyo, Japan, in 2003, 2005, and 2009, respectively. From 2009 to 2015, he worked as a researcher at AIST. Before joining Binghamton University, he was an Associate Professor at the University of Tokyo. His research interests include hybrid electronics, wearable MEMS technologies, and meter-scale electronic textiles. He has published over 120 journal and conference papers on hybrid electronics and electronic textiles."
+        />
         <Talk
           id="Autonomous Culvert Inspection Using Legged Robots"
           time="Wednesday, November 12, 2025, 02:00 PM, EB T1"
